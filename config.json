@@ -1,0 +1,14 @@
+{
+  "vocab_size": 256,
+  "d_model": 256,
+  "n_heads": 8,
+  "n_layers": 6,
+  "d_ff": 1024,
+  "max_seq_len": 512,
+  "dropout": 0.0,
+  "rvi_enabled": true,
+  "rvi_rank": 32,
+  "rvi_alpha": 0.35,
+  "rvi_beta": 0.15,
+  "ctms_recurse": 2
+}

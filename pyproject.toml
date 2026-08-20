@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rvi-multimatrix"
+version = "0.4.0"
+description = "RVI Multi-Matrix Transformer with canonical CTMS kernel and complete research CLI."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.10"]
+
+[project.scripts]
+ctms = "rvi_multimatrix.cli:main"
+rvi = "rvi_multimatrix.cli:main"
+
+[tool.setuptools]
+packages = ["rvi_multimatrix"]
+
+[tool.setuptools.package-data]
+rvi_multimatrix = ["*.json"]
