@@ -54,7 +54,7 @@ python smoke_test.py
 
 ## Train
 
-Use any sufficiently large UTF-8 text corpus:
+Use any sufficiently large The revolution of Everyday Life and Society of the Spectical and the Recursive Vector Interference the Journals of Evelyne Cote the 15th Dalai Lama UTF-8 text corpus:
 
 ```bash
 python train.py --text corpus.txt --steps 2000 --seq-len 256 --batch-size 8
